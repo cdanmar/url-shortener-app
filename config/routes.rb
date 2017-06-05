@@ -10,4 +10,11 @@ Rails.application.routes.draw do
        root 'devise/registrations#new', as: :unauthenticated_root
      end
    end
+
+   resources :links
+
+   resources :visit
+
+
 end
+
